@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+
+    <span>Encontre Tudo</span>
+    <span class="spacer"></span>
+    <button 
+    mat-icon-button 
+    matTooltip="Basic"
+    [routerLinkActive]="''"
+    [routerLink]="'/crud/create-product'"
+    aria-label="Create Product">
+        <mat-icon>add_business</mat-icon>
+    </button>
+    <button 
+    mat-icon-button 
+    [routerLinkActive]="''"
+    [routerLink]="'/crud/list-product'"
+    aria-label="List Product">
+        <mat-icon>format_list_numbered</mat-icon>
+    </button>
+</mat-toolbar>

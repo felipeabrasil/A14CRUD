@@ -11,6 +11,9 @@ import { MatTableModule } from "@angular/material/table";
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatTooltipModule
 
   ],
   providers: [],
