@@ -8,9 +8,9 @@ import { HomeComponent } from './public/home/home.component';
 import { ListEmpresaComponent } from './public/empresa/list-empresa/list-empresa.component';
 
 import { MatTableModule } from "@angular/material/table";
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {MatNativeDateModule} from '@angular/material/core';
-import {HttpClientModule} from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatNativeDateModule } from '@angular/material/core';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import {HttpClientModule} from '@angular/common/http';
     ReactiveFormsModule,
     HttpClientModule,
     MatNativeDateModule
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
