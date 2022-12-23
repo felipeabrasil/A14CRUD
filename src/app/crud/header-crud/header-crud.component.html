@@ -1,20 +1,21 @@
-<mat-toolbar color="primary">
+<mat-toolbar>
 
     <span>Encontre Tudo</span>
     <span class="spacer"></span>
     <button 
-    mat-icon-button 
-    matTooltip="Basic"
-    [routerLinkActive]="''"
+    mat-fab extended
+    [routerLinkActive]="'routerLinkActive'"
     [routerLink]="'/crud/create-product'"
     aria-label="Create Product">
         <mat-icon>add_business</mat-icon>
+        Create
     </button>
     <button 
-    mat-icon-button 
-    [routerLinkActive]="''"
-    [routerLink]="'/crud/list-product'"
+    mat-fab extended
+    [routerLinkActive]="'routerLinkActive'"
+    [routerLink]="'/crud/product-list'"
     aria-label="List Product">
         <mat-icon>format_list_numbered</mat-icon>
+        List 
     </button>
 </mat-toolbar>

@@ -1,3 +1,4 @@
+import { MatTableModule } from '@angular/material/table';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
@@ -22,7 +23,8 @@ import { HeaderCrudComponent } from './header-crud/header-crud.component';
     CommonModule,
     CRUDRoutingModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatTableModule
   ]
 })
 export class CRUDModule { }
