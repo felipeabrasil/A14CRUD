@@ -11,12 +11,20 @@ import { MatTableModule } from "@angular/material/table";
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductListComponent } from './crud/product-list/product-list.component';
+import { CreateProductComponent } from './crud/create-product/create-product.component';
+import { ProductFormComponent } from './crud/product-form/product-form.component';
+import { ProductDetailsComponent } from './crud/product-details/product-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ListEmpresaComponent
+    ListEmpresaComponent,
+    ProductListComponent,
+    CreateProductComponent,
+    ProductFormComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
